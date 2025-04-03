@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.task-input {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.task-input input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.task-input button {
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.task-input button:hover {
+    background-color: #45a049;
+}
+
+.tasks {
+    margin-top: 20px;
+}
+
+.tasks h2 {
+    color: #4CAF50;
+}
+
+.tasks ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tasks li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tasks li.completed {
+    background-color: #d4edda;
+    text-decoration: line-through;
+}
+
+.tasks li button {
+    margin-left: 10px;
+    border: none;
+    background-color: #f44336;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tasks li button:hover {
+    background-color: #e53935;
+}
+
+.tasks li .edit-btn {
+    background-color: #ffa500;
+}
+
+.tasks li .edit-btn:hover {
+    background-color: #ff8c00;
+}
